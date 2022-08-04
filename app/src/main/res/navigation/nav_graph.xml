@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.recyclerfragments.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/go_marvel"
+            app:destination="@id/marvelList" />
+        <action
+            android:id="@+id/go_Dc"
+            app:destination="@id/dcListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelList"
+        android:name="com.example.recyclerfragments.MarvelListFragment"
+        android:label="fragment_marvel_list"
+        tools:layout="@layout/fragment_marvel_list" />
+    <fragment
+        android:id="@+id/dcListFragment"
+        android:name="com.example.recyclerfragments.DcListFragment"
+        android:label="fragment_dc_list"
+        tools:layout="@layout/fragment_dc_list" />
+</navigation>

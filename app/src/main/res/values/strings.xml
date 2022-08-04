@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recycler&amp;Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="super_hero_marvel">Super hero Marvel</string>
+    <string name="super_hero_dc">Super Hero DC</string>
+    <string name="imagen_ilustrativa_marvel_y_dc">Imagen ilustrativa Marvel y DC</string>
+</resources>
